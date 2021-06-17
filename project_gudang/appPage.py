@@ -132,7 +132,7 @@ class AppPage(tk.Frame):
 				index_item = self.last_current_contact_index
 			index = self.contacts_index[index_item]
 			self.last_current_contact_index = index
-			print(index_item,"=>",index)
+			#print(index_item,"=>",index)
 			self.current_contact = self.settings.contacts[index]
 			for Merk, info in self.current_contact.items():
 				merk = Merk
