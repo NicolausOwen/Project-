@@ -334,7 +334,7 @@ class AppPage(tk.Frame):
 
 
 	def clicked_delete_btn(self):
-		confirmed = messagebox.askyesnocancel("Product Conrifmation", "Are you sure you want to delete this product?")
+		confirmed = messagebox.askyesnocancel("Product Confirmation", "Are you sure you want to delete this product?")
 
 		if confirmed:
 			#print(self.current_contact, self.last_current_contact_index)
